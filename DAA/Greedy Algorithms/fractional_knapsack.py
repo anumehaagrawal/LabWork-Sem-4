@@ -15,11 +15,6 @@ def fractional_knapsack(results , W):
 			break;
 
 	print(bag)
-
-
-
-
-
 def main():
 	results = []
 	W = 100
