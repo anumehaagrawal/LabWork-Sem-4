@@ -7,7 +7,7 @@ def fractional_knapsack(results , W):
 			bag.append([1,results[0][0]])
 			results.pop(0)
 			W= W-results[0][1]
-			+
+			
 		else:
 			ratio_toadd = W/results[0][1]
 			print(ratio_toadd)
